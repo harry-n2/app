@@ -884,11 +884,32 @@ header h1 {
     word-break: break-all;
 }
 
+.reference-section {
+    background: linear-gradient(135deg, rgba(153, 170, 181, 0.1), rgba(114, 137, 218, 0.1));
+    border-radius: 8px;
+    padding: 20px;
+    border-left: 4px solid #99aab5;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.reference-section a {
+    color: #7289da;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.reference-section a:hover {
+    color: #99aab5;
+    text-decoration: underline;
+}
+
 /* モバイル対応 - Tab 3 */
 @media (max-width: 768px) {
     .community-welcome, .overview-section, .procedure-section, 
     .app-update-section, .free-method-section, .rules-section, 
-    .usage-guide-section, .monetization-section, .sample-app-section {
+    .usage-guide-section, .monetization-section, .sample-app-section,
+    .reference-section {
         padding: 20px;
         margin: 15px 0;
     }
