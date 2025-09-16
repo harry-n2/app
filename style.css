@@ -765,3 +765,139 @@ header h1 {
         font-size: 1.2em !important;
     }
 }
+
+/* Tab 3専用スタイル */
+.community-welcome {
+    background: linear-gradient(135deg, #7289da, #99aab5);
+    color: white;
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
+}
+
+.overview-section {
+    background: linear-gradient(135deg, rgba(114, 137, 218, 0.1), rgba(153, 170, 181, 0.1));
+    border-radius: 12px;
+    padding: 25px;
+    border-left: 5px solid #7289da;
+}
+
+.warning-note {
+    background-color: rgba(250, 166, 26, 0.2);
+    color: #faa61a;
+    padding: 10px 15px;
+    border-radius: 6px;
+    border-left: 4px solid #faa61a;
+    margin: 15px 0;
+    font-weight: 500;
+}
+
+.procedure-section {
+    background-color: #2f3136;
+    border-radius: 12px;
+    padding: 25px;
+    margin: 20px 0;
+}
+
+.procedure-step {
+    background-color: #40444b;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px 0;
+    border-left: 4px solid #7289da;
+}
+
+.procedure-step h4 {
+    color: #7289da;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.procedure-step code {
+    background-color: #36393f;
+    color: #99aab5;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+    font-size: 13px;
+}
+
+.app-update-section, .free-method-section {
+    background-color: #2f3136;
+    border-radius: 12px;
+    padding: 25px;
+    margin: 20px 0;
+    border-left: 4px solid #43b581;
+}
+
+.rules-section {
+    background: linear-gradient(135deg, rgba(240, 71, 71, 0.1), rgba(250, 166, 26, 0.1));
+    border-radius: 12px;
+    padding: 25px;
+    border: 2px solid rgba(240, 71, 71, 0.3);
+}
+
+.rule-warning {
+    background-color: #f04747;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.usage-guide-section {
+    background-color: #2f3136;
+    border-radius: 12px;
+    padding: 25px;
+    border-left: 4px solid #99aab5;
+}
+
+.monetization-section {
+    background: linear-gradient(135deg, rgba(67, 181, 129, 0.1), rgba(114, 137, 218, 0.1));
+    border-radius: 12px;
+    padding: 25px;
+    border: 2px solid rgba(67, 181, 129, 0.3);
+}
+
+.sample-app-section {
+    background: linear-gradient(135deg, rgba(114, 137, 218, 0.1), rgba(67, 181, 129, 0.1));
+    border-radius: 12px;
+    padding: 25px;
+    border: 2px solid rgba(114, 137, 218, 0.3);
+}
+
+.app-info {
+    background-color: #2f3136;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.app-info p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.app-info a {
+    color: #7289da;
+    word-break: break-all;
+}
+
+/* モバイル対応 - Tab 3 */
+@media (max-width: 768px) {
+    .community-welcome, .overview-section, .procedure-section, 
+    .app-update-section, .free-method-section, .rules-section, 
+    .usage-guide-section, .monetization-section, .sample-app-section {
+        padding: 20px;
+        margin: 15px 0;
+    }
+    
+    .procedure-step {
+        padding: 15px;
+    }
+    
+    .app-info {
+        padding: 15px;
+    }
+}
